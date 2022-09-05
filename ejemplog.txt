@@ -1,0 +1,22 @@
+PROG
+var n , x , y ;
+PROC putCB (c , b )
+{
+	drop( c ) ;
+	f r e e ( b ) ;
+ 	walk( n )
+}
+PROC goNorth ()
+{
+	wh i le ( canWalk ( north ,1) ) do { walk( north ,1) } od
+}
+PROC goWest ()
+{
+i f ( canWalk ( west ,1) ) { walk( west ,1) } fi
+}
+{
+	go (3 ,3) ;
+	n =6;
+	putCB (2 ,1)
+}
+GORP
